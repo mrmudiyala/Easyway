@@ -1,0 +1,33 @@
+{
+  "currency": "₹",
+  "chargePickupApproach": false,
+  "vehicles": {
+    "BIKE": {
+      "displayName": "Bike Taxi",
+      "baseFare": 15,
+      "perKmRate": 5.5,
+      "perMinuteRate": 0.5,
+      "minFare": 20,
+      "capacity": 1,
+      "description": "Fastest ride through traffic"
+    },
+    "AUTO": {
+      "displayName": "Auto",
+      "baseFare": 22,
+      "perKmRate": 7.5,
+      "perMinuteRate": 0.75,
+      "minFare": 28,
+      "capacity": 3,
+      "description": "Affordable doorstep ride"
+    },
+    "CAB": {
+      "displayName": "Cab Economy",
+      "baseFare": 35,
+      "perKmRate": 11,
+      "perMinuteRate": 1.0,
+      "minFare": 45,
+      "capacity": 4,
+      "description": "Air-conditioned comfortable car"
+    }
+  }
+}
